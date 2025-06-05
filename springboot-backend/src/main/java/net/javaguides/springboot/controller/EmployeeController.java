@@ -23,8 +23,8 @@ import net.javaguides.springboot.exception.ResourceNotFoundException;
 import net.javaguides.springboot.model.Employee;
 import net.javaguides.springboot.repository.EmployeeRepository;
 
-// Use environment variable for CORS origin - secure for production
-@CrossOrigin(origins = "${CORS_ORIGINS:http://localhost:4200}")
+// Explicitly allow Firebase frontend URL
+@CrossOrigin(origins = {"https://employee-mgmt-system-pv.web.app", "http://localhost:4200"})
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
