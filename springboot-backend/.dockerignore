@@ -1,0 +1,11 @@
+target/
+.mvn/wrapper/maven-wrapper.jar
+.git
+.gitignore
+README.md
+Dockerfile
+.dockerignore
+.DS_Store
+*.log
+node_modules
+.env 

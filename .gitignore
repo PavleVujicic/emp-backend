@@ -1,0 +1,77 @@
+# Employee Management System - Root .gitignore
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Frontend specific (Angular)
+angular-frontend/node_modules/
+angular-frontend/dist/
+angular-frontend/.angular/
+angular-frontend/coverage/
+angular-frontend/*.tgz
+
+# Backend specific (Spring Boot)
+springboot-backend/target/
+springboot-backend/*.jar
+springboot-backend/*.war
+springboot-backend/logs/
+springboot-backend/*.db
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Package managers
+node_modules/
+.npm/
+.yarn/
+
+# Build outputs
+build/
+dist/
+target/
+out/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Documentation builds
+docs/build/
+site/ 
